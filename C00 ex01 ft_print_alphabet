@@ -5,22 +5,21 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: itieu <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/10/10 09:51:49 by itieu             #+#    #+#             */
-/*   Updated: 2020/10/10 10:12:42 by itieu            ###   ########lyon.fr   */
+/*   Created: 2020/10/13 19:11:28 by itieu             #+#    #+#             */
+/*   Updated: 2020/10/13 19:15:54 by itieu            ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void ft_print_alphabet(void);
-
 void	ft_print_alphabet(void)
 {
-	char c;
-	c = 'a';
-	while (c <= 'z')
+	char a;
+
+	a = 'a';
+	while (a <= 'z')
 	{
-		write(1, &c, 1);
-		c++;
+		write(1, &a, 1);
+		a++;
 	}
 }
