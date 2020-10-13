@@ -5,14 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: itieu <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/10/10 09:40:48 by itieu             #+#    #+#             */
-/*   Updated: 2020/10/10 09:50:30 by itieu            ###   ########lyon.fr   */
+/*   Created: 2020/10/13 19:08:00 by itieu             #+#    #+#             */
+/*   Updated: 2020/10/13 19:11:04 by itieu            ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
-
-void ft_putchar(char c);
 
 void	ft_putchar(char c)
 {
