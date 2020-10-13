@@ -5,22 +5,21 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: itieu <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/10/10 10:13:59 by itieu             #+#    #+#             */
-/*   Updated: 2020/10/11 19:16:38 by itieu            ###   ########lyon.fr   */
+/*   Created: 2020/10/13 19:44:17 by itieu             #+#    #+#             */
+/*   Updated: 2020/10/13 19:47:20 by itieu            ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void ft_print_numbers(void);
-
 void	ft_print_numbers(void)
 {
-	int c;
-	c = '0';
-	while (c <= '9')
+	int a;
+
+	a = '0';
+	while (a <= '9')
 	{
-		write(1, &c, 1);
-		c++;
+		write(1, &a, 1);
+		a++;
 	}
 }
